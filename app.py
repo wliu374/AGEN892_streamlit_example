@@ -8,7 +8,7 @@ from pandas.api.types import is_datetime64_any_dtype
 # 📌 Load your shapefile (adjust this path to your actual file)
 @st.cache_data
 def load_data():
-    gdf = gpd.read_file("./data/Lab9_Grower.shp")
+    gdf = gpd.read_file("./data/Lab9_Data/Lab9_Grower.shp")
     return gdf
 
 gdf = load_data()
