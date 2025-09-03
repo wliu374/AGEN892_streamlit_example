@@ -1,1 +1,6 @@
-"streamlit\nstreamlit-folium\nfolium\ngeopandas\npandas\nnumpy" 
+streamlit
+streamlit-folium
+folium
+geopandas
+pandas
+numpy
